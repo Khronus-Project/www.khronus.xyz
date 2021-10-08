@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Testing Static Website</title>
+        <!-- Bootstrap core CSS -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #336699;">
+            <a class="navbar-brand" href="#Top">
+                <img src="static/images/Khronus Project icon.png" width="50" height="50" >
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#why_khronus">Why Khronus <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ecosystem">Khronus Ecosystem</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#HowDoesItWork">How does it Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#OpenSource">Open Source Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactUs">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <main role="main" class="bg-light text-dark">
+            <div class="container">    
+                <div class="container pt-2" id="top">
+                    <div class="row align-items-center">
+                        <div class="col-sm">
+                            <div class="text-center">
+                                <img src="static/images/Khronus logo greys.png" class="rounded">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container mt-5" id="why_khronus">
+                    <blockquote class="blockquote">
+                        <p>“A contract and its functions need to be called for anything to happen. There is no “cron” concept in Ethereum to call a function at a particular event automatically.”</p>
+                        <footer class="blockquote-footer">Solidity Documentation <cite title="Source Title">Version 0.8.9</cite></footer>
+                        <p>Khronus aims to provide a descentralized infrastructure and tools for the convenient management of time in Smart Contracts</p>
+                    </blockquote>  
+                </div>
+                <hr>
+                <div class="container" id="ecosystem">
+                    <div class="container row">
+                        <h1>The Khronus Ecosystem</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="text-center pt-2">
+                                <img src="static/images/Khronus Protocol logo.png" alt="Khronus Protocol Logo" class="img-fluid rounded" style="max-width: 30%">
+                            </div>
+                            <p>A fully descentralized network of nodes that provide automated calls to smart contracts.</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="text-center pt-2">
+                                <img src="static/images/Khronus Project logo.png" alt="Khronus Project" class="img-fluid rounded" style="max-width: 29%">
+                            </div>
+                            <p>A descentralized autonomus organization for the creation of free and open source tools designed for the management of time in Smart Contracts.</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="container" id="HowDoesItWork">
+                    <div class="container row">
+                        <h1>How Does it Work</h1>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-lg-6">
+                            <h2>For Client Contracts</h2>
+                            <ul>
+                                <li>
+                                    Inherit from Khronus powered contract.
+                                </li>
+                                <li>
+                                    Register in the Khronus Coordinator and fund with Khron token.
+                                </li>
+                                <li>
+                                    Create your request.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <h2>For Clock Masters</h2>
+                            <ul>
+                                <li>
+                                    Install Clock Master application in your infrastructure.
+                                </li>
+                                <li>
+                                    Deploy your Clock Master contract and register in the Khronus Coordinator.
+                                </li>
+                                <li>
+                                    Fund your Clock Master address and start serving alerts.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="text-center pt-2">
+                            <img src="static/images/HowDoesItwork.jpeg" alt="Khronus Project" class="img-fluid rounded" style="max-width: 80%">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="container" id="OpenSource">
+                    <h2>Our Open Source Tools</h2>
+                    <div class="container mt-3">
+                        <p style="text-align: center">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/KFVGSklMrus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </p>
+                        <p>
+                            The Khronus Time-Cog library is a gas efficient tool for managing time related functions in solidity. <a href="https://github.com/Khronus-Project/Khronus_TimeCog">Github Repository.</a></p>
+                    </div>
+                </div>
+                <hr>
+                <div class="container" id="contactUs">
+                    <h1> Contact Us </h1>
+                    <p>
+                    For scheduling a demo and inquire for ways of supporting the project, feel free to      <a id="contact_form" href="https://docs.google.com/forms/d/e/1FAIpQLSeD6GwJGe9Lt3-UyYy08Mh03ASehzG8O1-BxLim2JTu6dMYSw/viewform?usp=sf_link">Contact us.</a></p>        
+                </div>
+            </div>
+        </main>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        </body>
+
+</html>
